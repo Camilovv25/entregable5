@@ -1,0 +1,60 @@
+.header{
+  height: 120px;
+  width: 100%;
+  background-color: var(--color-red);
+  position: relative;
+}
+
+.header__logout{
+  color:black;
+  cursor: pointer;
+  font-size: 30px;
+  transition: 300ms color ease;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  z-index: 2;
+}
+.header__logout:hover{
+  color: red;
+}
+
+.header__img{
+  max-width: 350px;
+  margin-left: 10px;
+  position: absolute;
+  top:20px
+
+}
+.header__black{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  background-color: black
+}
+
+.header__circle{
+  position: absolute;
+  width:70px;
+  aspect-ratio: 1;
+  background-color: white;
+  border: 7px solid black;
+  bottom: 5px;
+  right: 10px;
+  transform: translate(-50%, 43%);
+  border-radius: 50%;
+}
+
+.header__circle-int{
+  position: absolute;
+  width:50px;
+  aspect-ratio: 1;
+  background-color: white;
+  border: 4px solid black;
+  bottom: 3px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+}
